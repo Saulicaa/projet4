@@ -102,7 +102,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #000080;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -242,6 +242,10 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.hidden-text {
+	display: none;
 }
 
 @media all and (max-width: 1180px) {
